@@ -18,6 +18,10 @@ class Human {
     var snowman = new Snowman(this.materials)
     return snowman;
   }
+
+  placeMagicHat() {
+    return 'Woah, this snowman is coming to life!'
+  }
 }
 
 module.exports = Human;
