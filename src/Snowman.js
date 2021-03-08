@@ -9,7 +9,9 @@ class Snowman {
   }
 
   canWearMagicHat() {
-    if (this.coal >= 2)  {
+    if (this.coal < 2 || this.buttons < 5)  {
+      this.magicHat = false;
+    } else {
       this.magicHat = true;
     }
   }
