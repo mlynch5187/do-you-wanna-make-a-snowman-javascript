@@ -1,6 +1,5 @@
 # Do you wanna build a snowman?
 Original author: [Hannah Hudson](https://github.com/hannahhch)  
-![Do you wanna build a snowman?](https://media.giphy.com/media/OmoKW1gK6ULg4/giphy.gif)
 
 This exercise is from the Turing School of Software & Design. The objective is to
 keep my JS skills up to date, and challenge myself.
@@ -21,5 +20,3 @@ In order to be able to run these tests you need to install the dependencies at t
 
 * test/Snowman-test.js  
 * test/Human-test.js  
-
-![success](https://media.giphy.com/media/6ym6xK7Omq9Ak/giphy.gif)
