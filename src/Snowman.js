@@ -5,6 +5,7 @@ class Snowman {
     this.coal = obj.coal;
     this.buttons = obj.buttons;
     this.snowballs = obj.snowballs;
+    this.magicHat = false;
   }
 }
 
