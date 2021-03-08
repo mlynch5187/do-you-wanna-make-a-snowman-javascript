@@ -1,3 +1,5 @@
+var Snowman = require('./Snowman');
+
 class Human {
   constructor(name) {
     this.name = name;
@@ -9,7 +11,12 @@ class Human {
   }
 
   gatherMaterials(name, quantity) {
-    this.materials[name] += quantity;    
+    this.materials[name] += quantity;
+  }
+
+  buildASnowman() {
+    var snowman = new Snowman(this.materials)
+    return snowman;
   }
 }
 
