@@ -7,6 +7,10 @@ class Snowman {
     this.snowballs = obj.snowballs;
     this.magicHat = false;
   }
+
+  canWearMagicHat() {
+    this.magicHat = true;
+  }
 }
 
 module.exports = Snowman;
