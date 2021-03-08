@@ -9,7 +9,7 @@ class Human {
   }
 
   gatherMaterials(name, quantity) {
-    this.materials[name] = quantity;    
+    this.materials[name] += quantity;    
   }
 }
 
