@@ -1,6 +1,6 @@
 class Human {
-  constructor() {
-
+  constructor(name) {
+    this.name = name;
   }
 }
 
